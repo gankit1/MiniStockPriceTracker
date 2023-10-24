@@ -32,8 +32,8 @@ function App() {
         <option value="reliance">RELIANCE</option>
 
       </select>
-      <p>Selected Stock: {selectedStock.toUpperCase()}</p>
-      <p>Current Price: ₹{stockData[selectedStock].toFixed(2)}</p>
+      <p>Selected Stock: {selectedStock?.toUpperCase()}</p>
+      <p>Current Price: ₹{stockData[selectedStock]?.toFixed(2)}</p>
     </div>
   );
 }
