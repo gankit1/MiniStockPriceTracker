@@ -30,6 +30,8 @@ function App() {
       >
         <option value="tcs">TCS</option>
         <option value="reliance">RELIANCE</option>
+        <option value="wipro">WIPRO</option>
+        <option value="infosys">INFOSYS</option>
 
       </select>
       <p>Selected Stock: {selectedStock?.toUpperCase()}</p>
