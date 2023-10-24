@@ -7,7 +7,7 @@ function App() {
 
   const fetchPrices = async () => {
     try {
-      const response = await axios.get('http://localhost:5001/api/stock_prices');
+      const response = await axios.get('http://localhost:5002/api/stock_prices');
       console.log(response, "responseee")
       setStockData(response.data);
     } catch (error) {
